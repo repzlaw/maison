@@ -3,3 +3,6 @@
 60 mombolo Street wuse zone 2, Abuja
 
 Info.urbancriterion@gmail.com
+
+
+slider help https://ganlanyuan.github.io/tiny-slider/demo/
