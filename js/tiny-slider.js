@@ -496,9 +496,13 @@ if(!("remove" in Element.prototype)){
 
 var tns = function(options) {
   options = extend({
-    container: '.slider',
+    "container": "#vertical",
+  // "items": 3,
+  "axis": "vertical",
+  "swipeAngle": false,
+    // container: '.slider',
     mode: 'carousel',
-    axis: 'horizontal',
+    // axis: 'horizontal',
     items: 1,
     gutter: 0,
     edgePadding: 0,
@@ -540,7 +544,7 @@ var tns = function(options) {
     lazyloadSelector: '.tns-lazy-img',
     touch: true,
     mouseDrag: false,
-    swipeAngle: 15,
+    // swipeAngle: 15,
     nested: false,
     preventActionWhenRunning: false,
     preventScrollOnTouch: false,
