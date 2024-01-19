@@ -4,6 +4,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.small-text {
+  font-size: 0.5rem; /* You can adjust the size using other size units like px, em, etc. */
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
