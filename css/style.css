@@ -9701,13 +9701,20 @@ textarea.form-control {
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  .agent .desc {
+  .about .desc {
+        height: 450px !important;
+     }
+
+    .agent .desc {
+        height: 450px;
     padding: 30px;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
+
+
     .agent .desc h3, .agent .desc .h3 {
       font-size: 22px;
       font-weight: 600; }
