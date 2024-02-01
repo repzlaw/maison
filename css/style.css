@@ -9646,7 +9646,7 @@ textarea.form-control {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 65%;
+    width: 100%;
     content: '';
     background: #050d21;
     z-index: -1; }
