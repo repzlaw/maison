@@ -17,6 +17,8 @@
 	<link rel="stylesheet" href="css/glightbox.min.css">
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/imageslide.css">
+
 </head>
 <body>
 
@@ -228,8 +230,45 @@
                 </div>
                 <div class="col-lg-6 d-flex align-items-stretch">
                   <!-- <div id="map" class="bg-white"></div> -->
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3940.0352273152816!2d7.461781729816215!3d9.060551258631664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x104e0b199aea7b01%3A0x3c06c8e7ec9b9a14!2szone%202%2C%2060%20Mambolo%20St%2C%20Zone%202%2C%20Abuja%20904101%2C%20Federal%20Capital%20Territory!3m2!1d9.0605838!2d7.4644198!5e0!3m2!1sen!2sng!4v1705017229899!5m2!1sen!2sng" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                  <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3940.0352273152816!2d7.461781729816215!3d9.060551258631664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x104e0b199aea7b01%3A0x3c06c8e7ec9b9a14!2szone%202%2C%2060%20Mambolo%20St%2C%20Zone%202%2C%20Abuja%20904101%2C%20Federal%20Capital%20Territory!3m2!1d9.0605838!2d7.4644198!5e0!3m2!1sen!2sng!4v1705017229899!5m2!1sen!2sng" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                
+               
+                <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 2</div>
+    <img src="images/map1.png" style="width:100%">
+    <!-- <div class="text">Caption Text</div> -->
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 2</div>
+    <img src="images/map2.png" style="width:100%">
+    <!-- <div class="text">Caption Two</div> -->
+  </div>
+
+  <!-- <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div> -->
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+</div>
+
+</div>
               </div>
             </div>
           </div>
@@ -407,5 +446,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/imageslide.js"></script>
   </body>
 </html>
